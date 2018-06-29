@@ -6,17 +6,17 @@
 //  Copyright © 2018年 sve. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SVEViewController.h"
 
-@interface ViewController ()
+@interface SVEViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SVEViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self layer_ImageVeiw];
 }
 

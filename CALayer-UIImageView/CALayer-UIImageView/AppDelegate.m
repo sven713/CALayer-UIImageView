@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SVEViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    SVEViewController *vc = [[SVEViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 
