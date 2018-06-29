@@ -22,7 +22,16 @@
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
-    self.window.rootViewController = nav;
+//    self.window.rootViewController = nav;
+    
+    UIViewController *vc1 = [[UIViewController alloc] init];
+    vc1.view.backgroundColor = [UIColor orangeColor];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:vc1];
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    tab.viewControllers = @[nav, nav1];
+    
+    self.window.rootViewController = tab;
     
     return YES;
 }
