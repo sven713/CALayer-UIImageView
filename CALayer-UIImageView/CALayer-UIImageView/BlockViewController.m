@@ -7,7 +7,7 @@
 //
 
 #import "BlockViewController.h"
-
+#import "BlockSyncxChainViewController.h"
 
 @interface BlockViewController ()
 @property (nonatomic, copy) void(^blockName)(void);
@@ -23,7 +23,7 @@
     
 //    [self releaseBlock];
 //    [self weakRelease];
-    [self parReleaseBlock];
+//    [self parReleaseBlock];
     
 }
 
@@ -58,5 +58,9 @@
 
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    BlockSyncxChainViewController *vc = [[BlockSyncxChainViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

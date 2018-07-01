@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A04C80E520E88AED001FAD04 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04C80E420E88AED001FAD04 /* BlockViewController.m */; };
+		A04C80E820E8961C001FAD04 /* BlockSyncxChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04C80E720E8961C001FAD04 /* BlockSyncxChainViewController.m */; };
 		A06D798820E5DA2000B9C282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D798720E5DA2000B9C282 /* AppDelegate.m */; };
 		A06D798B20E5DA2000B9C282 /* SVEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D798A20E5DA2000B9C282 /* SVEViewController.m */; };
 		A06D798E20E5DA2000B9C282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06D798C20E5DA2000B9C282 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		A04C80E320E88AED001FAD04 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		A04C80E420E88AED001FAD04 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		A04C80E620E8961C001FAD04 /* BlockSyncxChainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockSyncxChainViewController.h; sourceTree = "<group>"; };
+		A04C80E720E8961C001FAD04 /* BlockSyncxChainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockSyncxChainViewController.m; sourceTree = "<group>"; };
 		A06D798320E5DA2000B9C282 /* CALayer-UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALayer-UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06D798620E5DA2000B9C282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A06D798720E5DA2000B9C282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				A06D798A20E5DA2000B9C282 /* SVEViewController.m */,
 				A04C80E320E88AED001FAD04 /* BlockViewController.h */,
 				A04C80E420E88AED001FAD04 /* BlockViewController.m */,
+				A04C80E620E8961C001FAD04 /* BlockSyncxChainViewController.h */,
+				A04C80E720E8961C001FAD04 /* BlockSyncxChainViewController.m */,
 				A06D798C20E5DA2000B9C282 /* Main.storyboard */,
 				A06D798F20E5DA2000B9C282 /* Assets.xcassets */,
 				A06D799120E5DA2000B9C282 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 				A06D799620E5DA2000B9C282 /* main.m in Sources */,
 				A04C80E520E88AED001FAD04 /* BlockViewController.m in Sources */,
 				A06D798820E5DA2000B9C282 /* AppDelegate.m in Sources */,
+				A04C80E820E8961C001FAD04 /* BlockSyncxChainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
