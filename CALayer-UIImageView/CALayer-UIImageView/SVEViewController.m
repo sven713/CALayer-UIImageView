@@ -7,6 +7,7 @@
 //
 
 #import "SVEViewController.h"
+#import "BlockViewController.h"
 
 @interface SVEViewController ()
 
@@ -30,6 +31,12 @@
     // layer不能添加手势
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(aaaa)];
     
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    BlockViewController *vc = [[BlockViewController alloc] init];
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
